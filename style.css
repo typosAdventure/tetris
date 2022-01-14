@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+.gameContainer {
+    height: max-content;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+canvas {
+    border: 1px solid #000;
+    margin: 5px;
+    display: inline;
+}
