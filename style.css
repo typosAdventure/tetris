@@ -1,4 +1,4 @@
-h1 {
+h1, #frameCounter {
     text-align: center;
 }
 
@@ -8,6 +8,12 @@ h1 {
     margin: auto;
     display: flex;
     flex-direction: row;
+}
+
+.frameCounter {
+    width: auto;
+    border: 1px solid #000;
+    margin: 5px;
 }
 
 canvas {
